@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_winning.xml",
+        "source": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\src\\main\\res\\menu\\menu_winning.xml"
+    },
+    {
+        "merged": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_decision.xml",
+        "source": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\src\\main\\res\\menu\\menu_decision.xml"
+    },
+    {
+        "merged": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_game_start2.xml",
+        "source": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\src\\main\\res\\menu\\menu_game_start2.xml"
+    },
+    {
+        "merged": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_toss.xml",
+        "source": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\src\\main\\res\\menu\\menu_toss.xml"
+    },
+    {
+        "merged": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_bowling.xml",
+        "source": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\src\\main\\res\\menu\\menu_bowling.xml"
+    },
+    {
+        "merged": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_game_start.xml",
+        "source": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\src\\main\\res\\menu\\menu_game_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_batting.xml",
+        "source": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\src\\main\\res\\menu\\menu_batting.xml"
+    },
+    {
+        "merged": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_game_play.xml",
+        "source": "C:\\Users\\SIDDHANT CHADHA\\Documents\\MyDTU2\\app\\src\\main\\res\\menu\\menu_game_play.xml"
+    }
+]

@@ -1,0 +1,152 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010d11"
+    tools:context="com.handcricket.com22.mydtu.teamChoose">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE YOUR TEAM"
+            android:id="@+id/textView15"
+            android:textSize="35dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:text="YELLOW"
+            android:id="@+id/button9"
+            android:background="#efdf02"
+            android:textSize="30dp"
+            android:onClick="pteamf"
+            android:textColor="#f9f9f9"
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:text="RED"
+            android:id="@+id/button10"
+            android:background="#c91a1a"
+            android:textSize="30dp"
+            android:onClick="pteamf"
+            android:textColor="#f9f9f9"
+            android:layout_alignTop="@+id/button9"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:text="GREEN"
+            android:id="@+id/button11"
+            android:background="#0db20d"
+            android:textSize="30dp"
+            android:onClick="pteamf"
+            android:textColor="#f9f9f9"
+            android:layout_below="@+id/button9"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:text="BLUE"
+            android:id="@+id/button12"
+            android:background="#0eabce"
+            android:textSize="30dp"
+            android:onClick="pteamf"
+            android:textColor="#f9f9f9"
+            android:layout_alignTop="@+id/button11"
+            android:layout_alignStart="@+id/button10" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE RIVAL TEAM"
+            android:id="@+id/textView16"
+            android:textSize="35dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:text="YELLOW"
+            android:id="@+id/button13"
+            android:background="#efdf02"
+            android:textSize="30dp"
+            android:onClick="oteamf"
+            android:textColor="#f9f9f9"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:text="RED"
+            android:id="@+id/button14"
+            android:background="#c91a1a"
+            android:layout_alignTop="@+id/button13"
+            android:layout_alignStart="@+id/button12"
+            android:textSize="30dp"
+            android:onClick="oteamf"
+            android:textColor="#f9f9f9" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:text="GREEN"
+            android:id="@+id/button15"
+            android:background="#0db20d"
+            android:textSize="30dp"
+            android:textColor="#f9f9f9"
+            android:onClick="oteamf"
+            android:layout_below="@+id/button13"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:text="BLUE"
+            android:id="@+id/button16"
+            android:layout_alignTop="@+id/button15"
+            android:layout_alignEnd="@+id/button14"
+            android:background="#0eabce"
+            android:textSize="30dp"
+            android:textColor="#f9f9f9"
+            android:onClick="oteamf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff" />
+
+    </RelativeLayout>
+</FrameLayout>
