@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.handcricket.com22.mydtu.howtoplay">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:fillViewport="false">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/relhtp"
+            android:alpha="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STEP 1: ENTER GAME DETAILS"
+                android:id="@+id/textView24"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Just enter the game specific details you want. Such as the number of overs, number of wickets, and on clicking the next button you will be taken to a new screen where you can choose your team."
+                android:id="@+id/textView25"
+                android:layout_below="@+id/textView24"
+                android:layout_centerHorizontal="true"
+                android:textSize="22dp"
+                android:textColor="#00f2ff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STEP 2: TOSS"
+                android:id="@+id/textView26"
+                android:layout_below="@+id/textView25"
+                android:layout_centerHorizontal="true"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:paddingTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose heads or tails and a toss will happen. After the toss you will come to know if you won or lost. In case you lose, the animated figure will tell you what you have to do, i.e., bat or bowl."
+                android:id="@+id/textView27"
+                android:layout_below="@+id/textView26"
+                android:layout_centerHorizontal="true"
+                android:textSize="22dp"
+                android:textColor="#ff006f" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STEP 3: PLAY"
+                android:id="@+id/textView28"
+                android:layout_below="@+id/textView27"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="As you play you will see that the screen is divided into two parts. Both your and your opponent's name is written indicating which side you are. Rest of the game is simple."
+                android:id="@+id/textView29"
+                android:layout_below="@+id/textView28"
+                android:layout_centerHorizontal="true"
+                android:textSize="22dp"
+                android:textColor="#31ec07" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STEP 4: RESULT"
+                android:id="@+id/textView30"
+                android:layout_below="@+id/textView29"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The final screen will show you the statistics of he game and reveal the winner and the loser."
+                android:id="@+id/textView31"
+                android:layout_below="@+id/textView30"
+                android:layout_centerHorizontal="true"
+                android:textSize="22dp"
+                android:textColor="#f6f600" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView31"
+                android:text="BACK"
+                android:id="@+id/button3"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:background="#ec8080"
+                android:onClick="back" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

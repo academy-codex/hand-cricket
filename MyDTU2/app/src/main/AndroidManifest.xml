@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.handcricket.com22.mydtu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Hand Cricket"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <activity
+            android:name="com.handcricket.com22.mydtu.MainActivity"
+            android:label="Hand Cricket"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.handcricket.com22.mydtu.about"
+            android:label="about"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.handcricket.com22.mydtu.howtoplay"
+            android:label="howtoplay"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name="com.handcricket.com22.mydtu.GamePlay"
+            android:label="@string/title_activity_game_play"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.handcricket.com22.mydtu.teamChoose"
+            android:label="teamChoose"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.handcricket.com22.mydtu.toss"
+            android:label="@string/title_activity_toss"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.handcricket.com22.mydtu.GameStart"
+            android:label="@string/title_activity_game_start"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.handcricket.com22.mydtu.GameStart2"
+            android:label="@string/title_activity_game_start2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.handcricket.com22.mydtu.decision"
+            android:label="@string/title_activity_decision"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.handcricket.com22.mydtu.bowling"
+            android:label="@string/title_activity_bowling"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.handcricket.com22.mydtu.batting"
+            android:label="@string/title_activity_batting"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.handcricket.com22.mydtu.winning"
+            android:label="@string/title_activity_winning"
+            android:screenOrientation="portrait"/>
+
+
+
+
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+
+    </application>
+
+</manifest>
