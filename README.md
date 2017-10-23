@@ -1,1 +1,1 @@
-# hand-cricket
+# Hand-cricket
